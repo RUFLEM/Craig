@@ -2,11 +2,9 @@
   width: 60%;
   color: black;
   text-align: center;
-  
 }
 .Background {
   background: slategrey;
-  opacity: 95%;
   border-radius: 40px;
 
 }
