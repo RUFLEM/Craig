@@ -1611,26 +1611,28 @@
 // ];
 
 var CRAIG_WORDS = [
-  "brucecannon",
-  "raysteel",
-  "pippylogstockings",
-  "roscopicotrain",
-  "patch",
-  "justholdhands",
-  "attheendofthedayitgetsdark",
-  "lamppost",
+  "bruce cannon",
+  "girth",
+  "just hold hands",
+  "road sign basement",
   "strongbow",
-  "lastmanstanding",
-  "downthesands",
-  "multicolouredmouse",
+  "last man standing",
+  "down the sands",
   "sideshowbob",
   "hulahoops",
   "cripps",
   "kavos",
-  "samantha",
   "griff",
-  "taran",
-  "giardia"
+  "giardia",
+  "tight tshirt",
+  "basketball dance",
+  "maggsy you turkey",
+  "football fan",
+  "gin and cif",
+  "beyonce snooze",
+  "west wales baller",
+  "mini disc future",
+  "covid denier"  
 ]
 
 function randomWord() {

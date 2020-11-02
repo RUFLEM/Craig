@@ -53,7 +53,7 @@ class Hangman extends Component {
 
   /** generateButtons: return array of letter buttons to render */
   generateButtons() {
-    return "abcdefghijklmnopqrstuvwxyz".split("").map(ltr => (
+    return "abcdefghijklmnopqrstuvwxyz ".split("").map(ltr => (
       <button
         key={ltr}
         value={ltr}
@@ -75,9 +75,10 @@ class Hangman extends Component {
     if (gameOver) gameState = "You Lose!";
     return (
       <div className='Hangman'>
-        <h1>Hangman</h1>
+        <div className="Background">
+        <h1>Craig's Birthday Hangman</h1>
         <img src={this.props.images[this.state.nWrong]} alt={altText} />
-        <p>Guessed Wrong: {this.state.nWrong}</p>
+        <p className='Guesses'>Guessed Wrong: {this.state.nWrong}</p>
         <p className='Hangman-word'>
           {!gameOver ? this.guessedWord() : this.state.answer}
         </p>
@@ -85,6 +86,7 @@ class Hangman extends Component {
         <button id='reset' onClick={this.reset}>
           Restart?
         </button>
+        </div>
       </div>
     );
   }
