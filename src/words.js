@@ -1632,7 +1632,7 @@ var CRAIG_WORDS = [
   "beyonce snooze",
   "west wales baller",
   "mini disc future",
-  "covid denier"  
+  "covid denier",
 ]
 
 function randomWord() {
